@@ -5,14 +5,7 @@ Currently, the app is not set up to make use of context. Let's set up `TweetCont
 The tweet content is being passed as `props` to the Tweet component. We need to move it all to the provider.
 
 ```js
-<Tweet
-  tweetContents="Where in the world am I?"
-  displayName="Carmen Sandiego ✨"
-  username="carmen-sandiego"
-  avatarSrc={avatar}
-  isRetweetedByCurrentUser={false}
-  isLikedByCurrentUser={false}
-/>
+<Tweet />
 ```
 
 ## Steps
